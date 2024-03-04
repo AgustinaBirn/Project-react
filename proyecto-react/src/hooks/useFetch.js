@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getStock } from "../../../api/StockApi";
-import { ItemList } from "./ItemList";
+import { getStock } from "../api/StockApi";
 
-export const ItemListContainer = () => {
+export const useFetch = () => {
   const { category } = useParams();
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -12,10 +11,10 @@ export const ItemListContainer = () => {
     setIsLoading(true);
     getStock().then((resp) => {
       if (category) {
-        const productFilter = resp.filter(
+        const producFilter = resp.filter(
           (product) => product.category === category
         );
-        setProducts(productFilter);
+        setProducts(producFilter);
       } else {
         setProducts(resp);
       }
@@ -23,5 +22,8 @@ export const ItemListContainer = () => {
     });
   }, [category]);
 
-  return <ItemList product={products} isLoading={isLoading} />;
+  return {
+    product: products,
+    isLoading: isLoading,
+  };
 };

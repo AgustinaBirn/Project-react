@@ -1,0 +1,38 @@
+export let products = [
+  {
+    id: 1,
+    title: "producto 1",
+    price: 111,
+    description: "sssssss",
+    img: "https://acdn.mitiendanube.com/stores/001/163/183/products/whatsapp-image-2024-02-27-at-15-10-36-73a428b3a77e12cfd417090631210209-480-0.webp",
+    stock: 11,
+    category: "Pantalones",
+  },
+  {
+    id: 2,
+    title: "",
+    price: 111,
+    description: "ss",
+    img: "https://acdn.mitiendanube.com/stores/001/163/183/products/whatsapp-image-2024-02-27-at-15-10-36-73a428b3a77e12cfd417090631210209-480-0.webp",
+    stock: 11,
+    category: "Pantalones",
+  },
+  {
+    id: 3,
+    title: "",
+    price: 111,
+    description: "ss",
+    img: "https://acdn.mitiendanube.com/stores/001/163/183/products/whatsapp-image-2024-02-27-at-15-10-36-73a428b3a77e12cfd417090631210209-480-0.webp",
+    stock: 11,
+    category: "Pantalones",
+  },
+  {
+    id: 4,
+    title: "",
+    price: 111,
+    description: "ss",
+    img: "https://acdn.mitiendanube.com/stores/001/163/183/products/whatsapp-image-2024-02-27-at-15-10-36-73a428b3a77e12cfd417090631210209-480-0.webp",
+    stock: 11,
+    category: "Pantalones",
+  },
+];

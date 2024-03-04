@@ -16,5 +16,3 @@ export const Greeting = ({ name, greet, inputName }) => {
     </div>
   );
 };
-
-// guardar y vincular

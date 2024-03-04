@@ -1,0 +1,84 @@
+{
+  "stock": [
+    {
+      "id": "93b7ef16-c1b5-4df6-96dc-a3f840a92e38",
+      "name": "PANTALÓN SUMMER (BEIGE)",
+      "tall": "xl",
+      "units": 3,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709531106/whatsapp-image-2024-02-28-at-15-19-45-a428ce8098ae115a1717092302427925-1024-1024_qchiw4.webp",
+      "category": "Pantalones",
+      "stock": 3,
+      "price": "$12.000"
+    },
+    {
+      "id": "93b7ef16-c1b5-4df6-96dc-a3f840a92e39",
+      "name": "PANTALON YVONNE (BORDEAUX)",
+      "tall": "xl",
+      "units": 3,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709532559/whatsapp-image-2024-02-29-at-14-53-22-4b96a886e8f1723d0517092924315763-1024-1024_j3azsp.webp",
+      "category": "Pantalones",
+      "stock": 3,
+      "price": "$15.000"
+    },
+    {
+      "id": "38c3b2a3-33b9-4a86-a66b-662e11c3b8dc",
+      "name": "VESTIDO LOVER (DARK GREY)",
+      "tall": "l",
+      "units": 1,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709533339/whatsapp-image-2024-03-01-at-16-05-09-1-88b828e6d5c4213a7c17093205809624-1024-1024_n4c7cv.webp",
+      "category": "Vestidos",
+      "stock": 1,
+      "price": "$22.000"
+    },
+    {
+      "id": "5ca01c51-8a32-48ba-b99f-e9d691059517",
+      "name": "TOP COLETTE (WHITE)",
+      "tall": "s",
+      "units": 2,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709533323/whatsapp-image-2024-03-01-at-15-29-37-236a976ccdcfdb1cbb17093198708837-1024-1024_yrzhtm.webp",
+      "category": "Remeras",
+      "stock": 2,
+      "price": "$7.000"
+    },
+    {
+      "id": "f5ece7fa-8356-4840-8e56-95062189c67e",
+      "name": "REMERA ZAMBIA (WHITE)",
+      "tall": "s",
+      "units": 6,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709533351/whatsapp-image-2024-02-29-at-14-53-21-8487a611a3a7164ed317092924997931-1024-1024_cfvoyd.webp",
+      "category": "Remeras",
+      "stock": 6,
+      "price": "$8.500"
+    },
+    {
+      "id": "7bc41d8f-e315-4661-91fb-70a73970af9b",
+      "name": "REMERA SOLEIL (WHITE)",
+      "tall": "s",
+      "units": 8,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709533363/whatsapp-image-2024-02-27-at-15-10-00-1-a6d3eab66c54f5ea6117090605709637-1024-1024_rnjmrf.webp",
+      "category": "Remeras",
+      "stock": 8,
+      "price": "$6.700"
+    },
+    {
+      "id": "7ba46b12-480c-4650-ac4d-49dc7144577d",
+      "name": "PANTALON PARACHUTE RUFA (LILA)",
+      "tall": "xl",
+      "units": 10,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709533009/whatsapp-image-2024-02-23-at-16-06-05-2-eb2bdcf7874d9e0d1c17089750363663-1024-1024_lyqrjw.webp",
+      "category": "Pantalones",
+      "stock": 10,
+      "price": "$13.000"
+    },
+    {
+      "id": "e241f188-4778-4b16-b4b7-16622aada336",
+      "name": "PANTALÓN SUMMER (BLACK)",
+      "tall": "xl",
+      "units": 7,
+      "img": "https://res.cloudinary.com/djbpoyfkk/image/upload/v1709533074/whatsapp-image-2023-12-20-at-16-15-29-74d287931dd786519017092197015376-1024-1024_ii7g4z.jpg",
+      "category": "Pantalones",
+      "stock": 7,
+      "price": "$12.800"
+    }
+  ]
+}
