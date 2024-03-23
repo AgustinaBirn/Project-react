@@ -3,6 +3,7 @@ import CartWidget from "../../common/cart/CartWidget";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  let user = { rol: "admin" };
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary justify-content-center flex-column">
       <div className="row d-flex justify-content-between w-100">
@@ -24,9 +25,7 @@ const Navbar = () => {
           className="col-7 justify-content-around collapse navbar-collapse"
           id="navbarTogglerDemo02"
         >
-          <form className="d-flex" role="search">
-            {Input()}
-          </form>
+          <Input />
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">
@@ -34,10 +33,18 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link active" href="#">
                 Mi cuenta
               </a>
             </li>
+            {user.rol === "admin" && (
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/dashboard">
+                  Dashboard
+                </Link>
+              </li>
+            )}
+
             <li className="nav-item">
               <Link to="/Cart">
                 <CartWidget />

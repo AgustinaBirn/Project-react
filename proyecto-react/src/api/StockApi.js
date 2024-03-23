@@ -1,4 +1,5 @@
 export const getStock = async () => {
+  // const [info, setInfo] =
   try {
     const answer = await fetch("http://localhost:3000/stock");
     const data = await answer.json();
@@ -23,9 +24,9 @@ export const getStockById = async (id) => {
       return null;
     }
 
-    const item = data;
-    if (item) {
-      return item;
+    // const item = data;
+    if (data) {
+      return data;
     } else {
       console.log("No existe producto con ese ID");
     }

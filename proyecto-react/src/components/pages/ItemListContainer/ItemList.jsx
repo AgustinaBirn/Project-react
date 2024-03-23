@@ -1,7 +1,8 @@
 import { CircularProgress } from "@mui/material";
 import { ProductCard } from "../../common/Card/ProductCard";
+import { AgregarDocs } from "../../../AgregarDocs";
 
-export const ItemList = ({ product, isloading }) => {
+export const ItemList = ({ product }) => {
   return (
     <>
       <h3
@@ -9,6 +10,7 @@ export const ItemList = ({ product, isloading }) => {
       >
         Productos
       </h3>
+      {/* <AgregarDocs /> */}
       <div
         style={{
           display: "flex",
@@ -17,11 +19,8 @@ export const ItemList = ({ product, isloading }) => {
         }}
         className="row"
       >
-        {isloading ? (
-          <CircularProgress color="inherit" />
-        ) : (
-          product &&
-          product.map(({ id, name, tall, units, img }) => (
+        {product &&
+          product.map(({ id, name, tall, units, img, color }) => (
             <ProductCard
               key={id}
               name={name}
@@ -29,9 +28,9 @@ export const ItemList = ({ product, isloading }) => {
               units={units}
               img={img}
               id={id}
+              color={color}
             />
-          ))
-        )}
+          ))}
         <div>
           <button>Atrás</button>
           <strong>Pagina 1</strong>
